@@ -20,7 +20,7 @@ def calculate_value():
         label_show.config(text=result, fg="#2E7D32", font=("Times New Roman", 20, "bold"))
         
         # DRAWING THE GRAPH
-        chu_ky_T = 1 / tanso if tanso != 0 else 1 #Period T
+        chu_ky_T = 1 / tanso if tanso != 0 else 1 #In case frequency = 0
         max_time = max(2 * chu_ky_T, thoigian * 1.2)
         t_plot = np.linspace(0, max_time, 1000)
         x_plot = biendo * np.cos(omega * t_plot + pha_rad)
