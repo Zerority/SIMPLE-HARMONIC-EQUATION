@@ -36,6 +36,6 @@ button_calulating.pack(padx = 20)
 #Creating the fram
 frame_result = tk.LabelFrame(root, text=" Value ", font=("Times New Roman", 20, "italic"), bg="#F5F5F5", padx=10, pady=10)
 frame_result.pack(pady=10, fill="both", expand=True, padx=20)
-label_show = tk.Label(label_result, text="Please enter variables and click the button.", font=("Times New Roman", 15), bg="#F5F5F5", fg="#808080")
+label_show = tk.Label(frame_result, text="Please enter variables and click the button.", font=("Times New Roman", 15), bg="#F5F5F5", fg="#808080")
 label_show.pack(pady=20)
 root.mainloop()
