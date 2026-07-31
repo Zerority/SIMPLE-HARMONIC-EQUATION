@@ -71,7 +71,6 @@ entry_time_t.grid(row=3, column=1, pady=5, padx=15)
 button_calulating = tk.Button(root, text="Calculate and Plot the Graph", width=40, font=("Times New Roman", 12, "bold"), bg="#000080", fg="#FFFFFF", command=calculate_value)
 button_calulating.pack(pady=10)
 
-# Khung chứa kết quả chữ
 frame_result = tk.LabelFrame(root, text=" Result ", font=("Times New Roman", 14, "italic"), bg="#F5F5F5", padx=10, pady=5)
 frame_result.pack(pady=5, fill="x", padx=20)
 label_show = tk.Label(frame_result, text="Please enter variables and click the button.", font=("Times New Roman", 14), bg="#F5F5F5", fg="#808080")
